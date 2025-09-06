@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://bk770pqturtqo"
+path="res://.godot/imported/bigFont-uhd.fnt-c167021e1bf7b51b5cbec2134a16d257.fontdata"
+
+[deps]
+
+source_file="res://games/mathtuf/sprites/mainstuff/bigFont-uhd.fnt"
+dest_files=["res://.godot/imported/bigFont-uhd.fnt-c167021e1bf7b51b5cbec2134a16d257.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

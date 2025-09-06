@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://o6ijftusuonu"]
+
+[ext_resource type="Texture2D" uid="uid://b2qbsxrvg8a6p" path="res://games/mathtuf/sprites/mainstuff/luckyblock.png" id="1_w5vvh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_074qe"]
+size = Vector2(72, 72)
+
+[node name="Block" type="StaticBody2D"]
+
+[node name="BlockSprite" type="Sprite2D" parent="."]
+position = Vector2(521, 261)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_w5vvh")
+
+[node name="BlockHitbox" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(521, 261)
+shape = SubResource("RectangleShape2D_074qe")
+debug_color = Color(0.254902, 0.505882, 1, 0.419608)
